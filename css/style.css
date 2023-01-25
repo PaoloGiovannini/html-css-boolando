@@ -54,12 +54,24 @@ header span, header i {
 }
 
 .colonna {
-    width: calc(100% / 3 );
-    padding: 20px;
+    width: calc(100% / 3 - 60px );
+    margin: 30px;
+    position: relative;
+}
+
+.front-foto{
+    position: relative;
 }
 
 
+.back-foto{
+    display: none;
+}
 
+.front-foto:hover + .back-foto{
+    display: inline;
+}
 
-
-
+.front-foto:hover{
+    display: none;
+}
