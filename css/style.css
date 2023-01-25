@@ -59,7 +59,7 @@ header span, header i {
     position: relative;
 }
 
-.front-foto{
+.prodotto{
     position: relative;
 }
 
@@ -84,4 +84,16 @@ header span, header i {
 .full-price{
     text-decoration: line-through;
     font-size: 13px
+}
+
+
+.cuore{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    text-align: center;
 }
