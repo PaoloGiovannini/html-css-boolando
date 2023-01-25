@@ -97,3 +97,26 @@ header span, header i {
     font-size: 30px;
     text-align: center;
 }
+
+.posabs{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+
+.tag-red{
+    background-color: #ff0000 ;
+}
+
+
+.tag{
+    padding: 5px 15px;
+    color: white;
+
+}
+
+.tag-green {
+    background-color: #008000
+}
+
+
