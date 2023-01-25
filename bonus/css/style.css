@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.mwidth{
+    max-width: 70%;
+    margin: auto;
+}
+
+header{  
+    background-color: #fe6900
+}
+
+header, footer{
+    color: white;
+}
+
+.htop-bar{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+
+header span, header i {
+    padding: 0px 5px;
+}
+
+.categorie, .icon {
+    width: 20%;
+}
+
+.container-logo{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    height: 40px;
+}
+
+.icon{
+    text-align: right;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+.prodotto img {
+    width: 100%;
+}
+
+.colonna {
+    width: calc(100% / 3 - 30px );
+    margin: 30px 30px 30px 0px;
+    position: relative;
+}
+
+.prodotto{
+    position: relative;
+}
+
+
+.back-foto{
+    display: none;
+}
+
+.front-foto:hover + .back-foto{
+    display: inline;
+}
+
+.front-foto:hover{
+    display: none;
+}
+
+.price{
+    color: red;
+    display: inline;
+}
+
+.full-price{
+    text-decoration: line-through;
+    font-size: 13px
+}
+
+
+.cuore{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.posabs{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+
+.tag-red{
+    background-color: #ff0000 ;
+}
+
+
+.tag{
+    padding: 5px 15px;
+    color: white;
+
+}
+
+.tag-green {
+    background-color: #008000
+}
+
+footer{
+    background-color: #1a1a1a;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.infosite span{
+    font-size: 13px;
+    padding: 15px 5px 5px 0px;
+}
+
+.find-us i{
+    padding: 5px;
+}
+
+.cuore:hover{
+    color: red;
+}
