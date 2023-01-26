@@ -71,11 +71,15 @@ header span, header i {
     display: none;
 }
 
-.front-foto:hover + .back-foto{
-    display: inline;
+.front-foto{
+    display: block;
 }
 
-.front-foto:hover{
+.prodotto:hover .back-foto{
+    display: block;
+}
+
+.prodotto:hover .front-foto{
     display: none;
 }
 
